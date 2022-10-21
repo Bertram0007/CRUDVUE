@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.emp_container{
+  width: 80%;
+  height: 80vh;
+  margin: 40px auto;
+  padding: 20px 30px;
+  .emp_card{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    text-align: right;
+    h1{
+      text-align: left;
+    }
+    .emp_edit,.emp_delete{
+      cursor: pointer;
+      margin: 0 8px;
+    }
+    .emp_edit{
+      color: #f49461;
+    }
+    .emp_delete{
+      color: #ee605f;
+    }
+    .emp_add_btn{
+      background-color: #74db34;
+      color: #000;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+  }
+}
